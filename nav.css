@@ -1,0 +1,90 @@
+.navbar-wrapper {
+  background-image: url(/static/images/general/gru.jpeg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47vh;
+  padding: 47px 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 30vh;
+}
+
+.navlinks-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.navlink {
+  width: 123px;
+  text-align: center;
+}
+
+.navlink p {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  border-bottom: 1px solid transparent;
+}
+
+.navlink p:hover {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+
+.navlink a:hover {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nav-dropdown {
+  width: 270px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.dropdown-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+  background-color: #032638;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.dropdown-link {
+  text-align: center;
+  margin: 3px 0px;
+}
+
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
