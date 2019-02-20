@@ -73,7 +73,3 @@
 .nav-dropdown:hover .dropdown-content {
   display: block;
 }
-
-.dropdown-content:hover {
-  display: none !important;
-}
