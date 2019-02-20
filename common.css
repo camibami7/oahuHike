@@ -11,6 +11,9 @@
 .mySlides {
   display: none;
 }
+.mySlides img {
+  height: 550px;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -91,4 +94,24 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.sq {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.sq1 {
+  padding: 20px;
+}
+
+.sq2 {
+  padding: 20px;
 }
