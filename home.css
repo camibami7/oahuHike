@@ -659,7 +659,14 @@ p {
   .sq1 {
     padding: 0px;
   }
-}
-@media screen and (max-width: 500px) {
 
+  .social-links {
+    width: 90%;
+    margin-left: -230px;
+    padding-left: 0px;
+  }
+  .social-icon {
+    margin:10px;
+    
+  }
 }
