@@ -113,6 +113,11 @@
   padding: 20px;
 }
 
+.sq1 iframe {
+  width: 400;
+  height: 300;
+}
+
 .sq2 {
   padding: 20px;
 }

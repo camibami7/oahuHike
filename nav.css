@@ -41,7 +41,11 @@
   border-bottom: 1px solid transparent;
 }
 
-.navlink p:hover {
+.navlink p:hover  {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.navlink p:focus  {
   border-bottom: 1px solid #f1f1f1;
 }
 
@@ -86,5 +90,9 @@
 }
 
 .nav-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-dropdown:focus .dropdown-content {
   display: block;
 }
