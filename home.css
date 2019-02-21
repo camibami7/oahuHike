@@ -637,3 +637,45 @@ p {
     width: 100%;
   }
 }
+
+
+@media screen and (max-width: 800px) {
+  .sq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 0px;
+  }
+  
+  
+  .sq2 {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navlinks-wrapper {
+    flex-direction: column;
+
+  }
+  iframe {
+    width:100vw;
+  }
+
+  .sq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    padding-left: 15%;
+
+  }
+  
+  .sq1 {
+    padding: 0px;
+  }
+  
+  .sq2 {
+    padding: 0px;
+  }
+}
