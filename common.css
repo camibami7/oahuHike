@@ -135,3 +135,23 @@ body {
   font-family: 'Open Sans', sans-serif;
 
 }
+
+
+@media (max-width: 400px) {
+  .nav-dropdown {
+    width: 123px !important;
+  }
+
+  .mySlides img {
+    height: auto !important;
+    width: 400px;
+  }
+
+  .sq1 iframe {
+    width: 390px !important;
+  }
+
+  .photo-bar {
+    flex-wrap: wrap;
+  }
+}
