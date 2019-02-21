@@ -1,6 +1,15 @@
 .navbar-wrapper {
   justify-content: flex-end;
   background-image: url(/static/images/general/anthony-intraversato-621918-unsplash.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47vh;
+  padding: 47px 5vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-page {
@@ -63,4 +72,15 @@
   padding-top: 77px;
   margin-bottom: 77px;
   font-size: 1.7rem;
+}
+
+.logo {
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 30vh;
 }
