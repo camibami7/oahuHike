@@ -1,0 +1,12 @@
+.navbar-wrapper {
+  background-image: url(/static/images/general/jeremy-bishop-136677-unsplash-notcropped.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47vh;
+  padding: 47px 5vw;
+  display: flex;
+  justify-content: space-between;
+}
